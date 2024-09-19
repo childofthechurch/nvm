@@ -1,0 +1,117 @@
+$text-font: monospace;
+@font-face {
+    font-family: 'TIMESS__';
+    src: url('webfontkit-20230806-135721/timess__-webfont.woff2') format('woff2'),
+         url('webfontkit-20230806-135721/timess__-webfont.woff') format('woff');
+         font-family: 'akira_expanded';
+         src: url('webfontkit-20240810-123509/akira_expanded_demo-webfont.woff') format('woff'),
+                url('webfontkit-20240810-123509/akira_expanded_demo-webfont.woff2') format('woff2');
+}
+
+
+
+.landing {
+    
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1vw 1vw;
+    font-family: 'TIMESS__';
+    color: #ffffff;
+    font-size: 9vw;
+    text-shadow: 2px 2px #444444;
+    letter-spacing: 6px;
+ 
+}
+.links {
+    
+    
+   
+    width: 100%;
+    height: auto;
+    font-family: $text-font;
+    color: #ffffff;
+    font-size: 1vw;
+    text-shadow: none;
+    letter-spacing: 1px;
+    
+    
+    img {
+        padding: 20px;
+        
+    }
+ 
+}
+
+.email {
+    
+    font-family: $text-font;
+    color: #ffffff;
+    font-size: 1vw; 
+    
+    position: fixed;
+    right: 0px;
+    bottom: 7px;
+    padding: 10px;
+    
+    
+
+    img {
+        padding: 10px;
+        position: fixed;
+        right: 0px;
+        bottom: 30px;
+
+    }
+ 
+}
+
+.end {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: $text-font;
+    color: #000000;
+    font-size: 1vw;
+   
+    #sizeSmall {
+        width:25%;
+        height: auto;
+    }
+}
+.videos {
+    width: 100%;
+    height: auto;
+}
+
+
+.row {
+
+    flex-wrap: wrap;
+    padding: 1px;
+    font-family: $text-font;
+    font-size: 12px;
+    height: auto;
+}
+  
+.column {
+    flex: 50%;
+    max-width: 100%;
+    padding: 0px;
+}  
+
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+      
+    }
+    .row {
+        flex: 100%;
+        max-width: 100%;
+        
+    }
+  }
+  
+

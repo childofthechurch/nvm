@@ -1,0 +1,311 @@
+@font-face {
+  font-family: 'TIMES__';
+  src: url('webfontkit-20230806-135721/timess__-webfont.woff2') format('woff2'),
+         url('webfontkit-20230806-135721/timess__-webfont.woff') format('woff');
+  font-family: 'akira_expanded';
+  src: url('webfontkit-20240810-123509/akira_expanded_demo-webfont.woff') format('woff'),
+         url('webfontkit-20240810-123509/akira_expanded_demo-webfont.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  text-align: left;
+  font-family: 'helvetica';
+  background-color: #ffffff;
+ 
+}
+
+/* unvisited link */
+a:link {
+  color: #ffeb6d;
+}
+
+/* visited link */
+a:visited {
+  color: #f5df4e;
+  text-decoration: none;
+  
+  
+}
+
+/* mouse over link */
+a:hover {
+  color: #d1db91;
+}
+
+/* selected link */
+a:active {
+  color: #ffe373;
+}
+
+.landing {
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  color:black;
+  font-family: 'TIMES__';
+  letter-spacing: .2px;
+}
+
+.title {
+  background-image: url(images/founder_title.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  font-size: 4.5vw; 
+  font-family: 'akira_expanded';
+  color: #ffffff;
+}
+
+
+.carousel-one {
+  position: absolute;
+ 
+  z-index: 1;
+  display: table;
+ 
+  
+  font-size: 4.5vw; 
+  font-family: 'akira_expanded';
+  color: #ffffff;
+  top: 1em;
+  left: 1em;
+  width:100%;
+  height:100%;
+}
+.carousel-two {
+  position: absolute;
+  z-index: auto;
+  display: table;
+
+  font-size: 4vw; 
+  font-family: 'akira_expanded';
+  color: #c81a1a;
+  left: 1em;
+  top: 9em;
+
+ 
+}
+.carousel-three {
+  position: absolute;
+  z-index: auto;
+
+  display: table;
+  
+  align-items: center;
+  font-size: 3.8vw; 
+  font-family: 'akira_expanded';
+  color: #ffffff;
+  left: 1em;
+  bottom: 1em;
+
+ 
+}
+
+
+/* transition duration to control the speed of fade effect */
+.carousel-item {
+  transition: transform 1.6s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 1.6s;
+}
+
+
+
+h1 {
+  
+
+  font-size: 10pt;
+  
+}
+
+h2 {
+  font-size: 14pt;
+  
+  
+}
+h3 {
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 18pt;
+  
+  letter-spacing: 1px;
+  
+}
+h5 {
+  font-size: 12pt;
+  
+}
+
+h6 {
+
+  font-size: 12pt;
+  
+  
+  
+}
+
+
+
+
+
+.darkBG {
+  background-color: #ffffff;
+  background-image: url(images/founder_title.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+  color: rgb(0, 0, 0);
+  
+}
+.founderTitle {
+  background-color: none;
+  color: #ffffff;
+  align-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-size: 4.5vw; 
+  font-family: 'akira_expanded';
+  color: #ffffff;
+}
+.streamLinks {
+  background-color: none;
+  color: #ffffff;
+  align-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-size: 4.5vw; 
+  font-family: 'akira_expanded';
+  color: #ffffff;
+}
+.clemente {
+  background-color: none;
+  color: #ffffff;
+  align-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-size: 2vw; 
+  
+  font-family: 'akira_expanded';
+  color: #ffffff;
+}
+.darkBG1 {
+  background-color: none;
+  color: #ffffff;
+  align-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.darkBG2 {
+  background-color: #ffffff;
+  color: #000000;
+  align-content: left;
+  align-items: left;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.end {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-family: monospace;
+  color: #000000;
+  font-size: 1vw;
+}
+
+.end #sizeSmall {
+  width: 25%;
+  height: auto;
+}
+
+.videos {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/*# 
+#navbar {
+  overflow: hidden;
+  background-color: #dbdec5;
+
+  width: 100%;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  font-family:'TIMES__';
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#navbar a:hover {
+  
+  color: #ff2929;
+}
+
+#navbar a.active {
+
+  color: #845742;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+*/
+
+
+
+@media screen and (max-width: 600px) {
+
+  .darkBG {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+
+}
+
+
+/*# ourceMappingURL=style.css.map */
